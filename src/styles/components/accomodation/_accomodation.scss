@@ -1,0 +1,223 @@
+@import "modal.scss";
+.acco {
+  width: 590px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 100px auto;
+  padding-left: 10px;
+  position: relative;
+  border: none;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border: none !important;
+  ._header {
+    background-color: transparent;
+    border: 0;
+    padding-top: 37px;
+
+    .card-title {
+      font-size: 28px;
+      font-weight: 600;
+      color: #333333;
+    }
+    ._import-acco {
+      .__action-btn {
+        border: none;
+        outline: 0;
+        font-size: 16px;
+        color: #a2792c;
+        font-weight: 500;
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none !important;
+        ._add-icon {
+          margin-right: 10px;
+          margin-top: -3px;
+        }
+        &:active {
+          border: none;
+          outline: none;
+          background-color: transparent;
+          color: #a2792c;
+          box-shadow: none !important;
+        }
+      }
+    }
+  }
+
+  .__body {
+    ._select-type {
+      width: 507px;
+      padding-left: 8px;
+      .card-text {
+        margin-bottom: 22px;
+      }
+      h4 {
+        font-size: 16px;
+        color: #333333;
+        font-weight: normal;
+      }
+      .card-text {
+        font-size: 14px;
+        color: #333333;
+        font-weight: normal;
+      }
+
+      //select
+
+      .css-2b097c-container {
+        border: 0.5px solid #a2792c;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: "";
+        border-radius: 8px;
+        box-shadow: none !important;
+        &:after {
+          content: "";
+          width: 20px;
+          height: 20px;
+          top: 20px;
+          position: absolute;
+          right: 0;
+          background-image: url("../../../assets/images/anchor-right.svg");
+          background-repeat: no-repeat;
+        }
+        &:active {
+          box-shadow: none !important;
+        }
+
+        .__list {
+          background-color: #fff;
+          border: 2px solid #a2792c !important;
+          border-radius: 8px;
+          border-bottom: #ede6d7;
+          &:hover {
+            background-color: #ede6d7;
+          }
+        }
+      }
+    }
+
+    ._description {
+      padding-top: 43px;
+      padding-left: 8px;
+      h4 {
+        font-size: 16px;
+        font-weight: normal;
+        color: #333333;
+      }
+
+      .card-text {
+        padding-top: 8px;
+        font-size: 14px;
+        color: #333333;
+      }
+    }
+
+    .__text-area {
+      padding-top: 8px;
+      padding-left: 8px;
+
+      .__hold-writing-text {
+        width: 507px;
+        height: 122px;
+
+        background: #ffffff;
+        border: 0.5px solid #a2792c;
+
+        outline: none;
+
+        box-shadow: none;
+        border-radius: 8px;
+        resize: none;
+      }
+
+      .__maxium-numbers {
+        font-size: 14px;
+        color: #4f4f4f;
+      }
+    }
+  }
+
+  ._btn {
+    width: 100%;
+    h4 {
+      margin-bottom: 25px;
+      padding-left: 8px;
+      color: #333333;
+      font-size: 16px;
+      font-weight: normal;
+    }
+    .__btn-update {
+      width: 292px;
+      height: 42px;
+      margin-right: 100px;
+      border-radius: 6px;
+      background: #a2792c;
+      border: 0.5px solid #979797;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .__btn-help {
+      background: #333333;
+      border: 0.5px solid #979797;
+      border-radius: 6px;
+      font-size: 16px;
+      padding-left: 24px;
+      font-weight: 600;
+      position: relative;
+      &:checked {
+        background: #333333;
+        font-size: 100px;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 16px;
+        top: 4px;
+        background-image: url("../../../assets/images/help.svg");
+      }
+    }
+  }
+
+  .__more-padding {
+    padding-top: 22px;
+  }
+}
+
+/// select
+.css-1hb7zxy-IndicatorsContainer {
+  display: none !important;
+}
+
+.css-yk16xz-control {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.css-g1d714-ValueContainer {
+  height: 50px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent !important;
+}
+
+.css-g1d714-ValueContainer:focus {
+  border: none;
+  outline: none;
+  background-color: transparent !important;
+
+  box-shadow: none;
+}
+
+.css-llaao21-allytext {
+  display: none;
+}
