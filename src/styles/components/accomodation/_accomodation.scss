@@ -200,10 +200,11 @@
 .css-yk16xz-control {
   background-color: transparent !important;
   border: none !important;
+  height: 50px !important;
 }
 
 .css-g1d714-ValueContainer {
-  height: 50px;
+  height: 50px !important;
   border: none;
   outline: none;
   box-shadow: none;
@@ -219,5 +220,9 @@
 }
 
 .css-llaao21-allytext {
-  display: none;
+  display: none !important;
+}
+
+.css-1wy0on6 {
+  display: none !important;
 }
